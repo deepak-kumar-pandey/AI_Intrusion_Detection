@@ -1,0 +1,19 @@
+# Virtual Environment
+venv/
+env/
+
+# Large Datasets
+data/raw/*.csv
+data/raw/*.pcap
+
+# Large Model Artifacts
+models/random_forest_model.pkl
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS generated files
+.DS_Store
+Thumbs.db
